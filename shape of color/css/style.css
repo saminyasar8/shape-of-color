@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.square{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+
+}
+
+
+.rectangle{
+    background-color: hotpink;
+    width: 300px;
+    height: 150px;
+}
+
+.circale{
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.triangleup{
+    width: 0;
+    height: 0;
+    border-bottom: 200px solid tomato;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+
+
+
+}
+.triangledown{
+    width: 0;
+    height: 0;
+    border-top: 200px solid tomato;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+}
+.triangleleft{
+    width: 0;
+    height: 0;
+    border-right: 200px solid tomato;
+    border-bottom: 100px solid transparent;
+    border-top: 100px solid transparent;
+}
+
+.shobuj{
+    background-color: green;
+    height: 400px;
+    width: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+.lal{
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+}
